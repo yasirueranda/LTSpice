@@ -1,0 +1,1 @@
+Link [Qualitative discussion on TTL Circuits](https://youtu.be/FuhsaWKBX_A)
