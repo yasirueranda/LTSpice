@@ -1,0 +1,21 @@
+Circuit: * C:\Users\ENVY BANG & OLUFSEN\Desktop\Tronic Assignment\fwr.asc
+
+.OP point found by inspection.
+
+Date: Mon Jul 04 22:06:14 2022
+Total elapsed time: 0.169 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7140
+traniter = 7140
+tranpoints = 2900
+accept = 2303
+rejected = 597
+matrix size = 14
+fillins = 4
+solver = Normal
+Matrix Compiler1: 920 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
