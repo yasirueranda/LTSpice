@@ -1,7 +1,2 @@
-# CRC-encoder-and-decoder
-Partial fulfilment for the module
-EN2054 : Communication Systems and Networks
-Department of Electronic and Telecommunication 
-University of Moratuwa
-
-
+# Basic Current Mirror
+Link [title] (https://youtu.be/FJgGKY2eBFs)
