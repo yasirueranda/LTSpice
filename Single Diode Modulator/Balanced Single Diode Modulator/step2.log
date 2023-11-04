@@ -1,0 +1,22 @@
+Circuit: * C:\Users\HP\Desktop\Mixer\Simulation\step2\step2.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Nov  5 01:40:52 2023
+Total elapsed time: 0.108 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 32895
+traniter = 32850
+tranpoints = 10647
+accept = 7019
+rejected = 3628
+matrix size = 18
+fillins = 0
+solver = Normal
+Avg thread counts: 1.0/1.1/1.1/1.0
+Matrix Compiler1: 638 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 1.23 KB object code size  0.2/0.2/[0.1]
+
