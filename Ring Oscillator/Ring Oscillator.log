@@ -1,33 +1,7 @@
-Circuit: * C:\Users\HP\Desktop\Ring Oscillator\Ring Oscillator.asc
+Circuit: * C:\Users\HP\Desktop\Ring Oscillator\sim\Ring Oscillator.asc
 
 Model "cmosp": Oxide thickness thinner than recommended for a level 1 MOSFET.
-Instance "m1": Length shorter than recommended for a level 1 MOSFET.
-Instance "m3": Length shorter than recommended for a level 1 MOSFET.
-Instance "m5": Length shorter than recommended for a level 1 MOSFET.
-Instance "m7": Length shorter than recommended for a level 1 MOSFET.
-Instance "m9": Length shorter than recommended for a level 1 MOSFET.
-Instance "m25": Length shorter than recommended for a level 1 MOSFET.
-Instance "m27": Length shorter than recommended for a level 1 MOSFET.
-Instance "m29": Length shorter than recommended for a level 1 MOSFET.
-Instance "m31": Length shorter than recommended for a level 1 MOSFET.
-Instance "m33": Length shorter than recommended for a level 1 MOSFET.
-Instance "m35": Length shorter than recommended for a level 1 MOSFET.
-Instance "m37": Length shorter than recommended for a level 1 MOSFET.
-Instance "m11": Length shorter than recommended for a level 1 MOSFET.
 Model "cmosn": Oxide thickness thinner than recommended for a level 1 MOSFET.
-Instance "m2": Length shorter than recommended for a level 1 MOSFET.
-Instance "m4": Length shorter than recommended for a level 1 MOSFET.
-Instance "m6": Length shorter than recommended for a level 1 MOSFET.
-Instance "m8": Length shorter than recommended for a level 1 MOSFET.
-Instance "m10": Length shorter than recommended for a level 1 MOSFET.
-Instance "m26": Length shorter than recommended for a level 1 MOSFET.
-Instance "m28": Length shorter than recommended for a level 1 MOSFET.
-Instance "m30": Length shorter than recommended for a level 1 MOSFET.
-Instance "m32": Length shorter than recommended for a level 1 MOSFET.
-Instance "m34": Length shorter than recommended for a level 1 MOSFET.
-Instance "m36": Length shorter than recommended for a level 1 MOSFET.
-Instance "m38": Length shorter than recommended for a level 1 MOSFET.
-Instance "m12": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -41,95 +15,43 @@ Gmin = 1.6455e-06
 Gmin = 1.76685e-07
 Gmin = 1.89714e-08
 Gmin = 2.03704e-09
-vernier = 0.5
-vernier = 0.25
-Gmin = 8.61772e-10
-vernier = 0.333333
-vernier = 0.166667
-Gmin = 5.5224e-10
-vernier = 0.222222
-vernier = 0.296296
-Gmin = 3.18945e-10
-vernier = 0.395061
-vernier = 0.197531
-Gmin = 1.72159e-10
-vernier = 0.263374
-Gmin = 9.68353e-11
-vernier = 0.351165
-vernier = 0.46822
-Gmin = 3.75372e-11
-vernier = 0.624294
-vernier = 0.312147
-vernier = 0.156073
-Gmin = 2.31984e-11
-vernier = 0.208098
-vernier = 0.104049
-Gmin = 1.75206e-11
-vernier = 0.138732
-vernier = 0.184976
-Gmin = 1.21522e-11
-vernier = 0.246634
-vernier = 0.123317
-Gmin = 8.85163e-12
-vernier = 0.164423
-vernier = 0.0822114
-Gmin = 7.01471e-12
-vernier = 0.109615
-vernier = 0.146154
-Gmin = 5.24773e-12
-vernier = 0.0730768
-vernier = 0.0974357
-Gmin = 4.40726e-12
-vernier = 0.129914
-Gmin = 3.30425e-12
-vernier = 0.0649571
-vernier = 0.0866095
-Gmin = 2.8891e-12
-vernier = 0.115479
-vernier = 0.153972
-Gmin = 2.16365e-12
-vernier = 0.205296
-Gmin = 1.37769e-12
-vernier = 0.102648
-vernier = 0.136864
-Gmin = 1.11538e-12
-vernier = 0.182486
-vernier = 0.243314
-Gmin = 7.09026e-13
-vernier = 0.324419
-Gmin = 3.50651e-13
-vernier = 0.432558
-vernier = 0.216279
-vernier = 0.288372
-Gmin = 2.18691e-13
-vernier = 0.144186
-vernier = 0.192248
-Gmin = 1.52084e-13
-vernier = 0.25633
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-.step x=4.02e-10
-.step x=4.02e-09
-.step x=4.02e-08
-.step x=4.02e-07
-.step x=1e-06
 
-Date: Sat Nov  4 09:07:04 2023
-Total elapsed time: 2.258 seconds.
+time1: time=2.83337e-07 at 2.83337e-07
+time2: time=3.48109e-07 at 3.48109e-07
+time3: time=3.16403e-07 at 3.16403e-07
+period: time2-time1=6.4772e-08
+ontime: time3-time1=3.30659e-08
+dutycycle: (ontime*100)/period=51.0497
+rtime1: time=2.81412e-07 at 2.81412e-07
+rtime2: time=2.87183e-07 at 2.87183e-07
+trise: rtime2-rtime1=5.77018e-09
+ftime1: time=3.23042e-07 at 3.23042e-07
+ftime2: time=3.13944e-07 at 3.13944e-07
+tfall: ftime1-ftime2=9.0982e-09
+
+
+Date: Mon Dec  4 20:25:12 2023
+Total elapsed time: 0.708 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 26951
-traniter = 23476
-tranpoints = 7429
-accept = 5844
-rejected = 1585
+totiter = 32251
+traniter = 31871
+tranpoints = 10414
+accept = 7571
+rejected = 2843
 matrix size = 17
-fillins = 18
+fillins = 21
 solver = Normal
-Avg thread counts: 4.0/4.0/1.1/1.0
-Matrix Compiler1: 2.34 KB object code size  0.4/0.4/[0.3]
-Matrix Compiler2: off  [0.2]/0.2/0.3
+Avg thread counts: 1.0/3.0/1.1/1.0
+Matrix Compiler1: 2.62 KB object code size  0.8/0.6/[0.5]
+Matrix Compiler2: 1.83 KB object code size  1.2/0.7/[0.3]
 

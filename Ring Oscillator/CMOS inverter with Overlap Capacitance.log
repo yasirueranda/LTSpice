@@ -1,0 +1,38 @@
+Circuit: * C:\Users\HP\Desktop\Ring Oscillator\sim\CMOS inverter with Overlap Capacitance.asc
+
+WARNING: Node N001 is floating.
+
+Model "cmosp": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Model "cmosn": Oxide thickness thinner than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+tmid1: v(vout)=2.5 AT 2.54364e-08
+tplh: tmid1-25.005n=4.31406e-10
+tmid2: v(vout)=2.5 AT 3.07857e-08
+tphl: tmid2-30.005n=7.8072e-10
+t10r: v(vout)=0.5 AT 2.51397e-08
+t90r: v(vout)=4.5 AT 2.62568e-08
+trise: t90r-t10r=1.11706e-09
+t10f: v(vout)=0.5 AT 3.18223e-08
+t90f: v(vout)=4.5 AT 3.03769e-08
+tfall: t10f-t90f=1.44538e-09
+
+
+Date: Mon Dec  4 19:27:57 2023
+Total elapsed time: 0.076 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3662
+traniter = 3654
+tranpoints = 1501
+accept = 1367
+rejected = 134
+matrix size = 7
+fillins = 0
+solver = Normal
+Avg thread counts: 1.2/1.4/1.4/1.2
+Matrix Compiler1:      21 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
